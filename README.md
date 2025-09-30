@@ -1,5 +1,5 @@
-## Hi this is Heet Radadiya.
-# Here's something about me:
+# Heet Radadiya.
+## Here's something about me:
 - I'm an aspiring systems engineer.
 - I have interest in Programming and Robotics.
 
