@@ -1,14 +1,15 @@
-# Welcome to the Profile
+# I am Heet Radadiya
+---
 
-## Here's something about me:
+#### Here's something about me:
+---
+- I am on a secret pathway
+- I am in love with tech and building software
+- I like to go beyond the abstraction layers
+- I always have time for long tech discussions
 
-
-- Looking to become a Systems Software Engineer.
-- I do also have interest in Software Security, Ethical Hacking, App Development and, Robotics.
-
-## Contact here:
-<div id="badges">
-  <a href="https://www.linkedin.com/in/heet-radadiya/">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-</div>
+#### 🦊 Personal totem: Fox
+---
+- Curious
+- Loyal
+- Fast
