@@ -1,0 +1,39 @@
+name: Update GitHub Terminal Stats
+
+on:
+  schedule:
+    # Once per day, at 03:17 UTC.
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update terminal stats
+        env:
+          GITHUB_USERNAME: Heet06
+          SVG_PATH: profile/terminal.svg
+        run: python3 scripts/update-github-stats.py
+
+      - name: Commit updated SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/terminal.svg
+
+          if git diff --cached --quiet; then
+            echo "No stats changes."
+            exit 0
+          fi
+
+          git commit -m "chore: update GitHub terminal stats"
+          git push
