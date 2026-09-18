@@ -121,9 +121,9 @@
     <!-- block 5: git log streak -->
     <text x="0" y="544"><tspan class="prompt">❯ </tspan><tspan class="cmd">git log</tspan><tspan class="flag"> --streak</tspan><tspan class="flag"> --user</tspan><tspan class="out"> Heet06</tspan></text>
     <text x="0" y="570" class="dim-out">fetching contribution graph...</text>
-    <text x="0" y="606" class="out">total contributions</text><text x="370" y="606" class="out">128</text>
-    <text x="0" y="632" class="out">current streak</text><text x="370" y="632" class="out">21 days</text>
-    <text x="0" y="658" class="out">longest streak</text><text x="370" y="658" class="out">37 days</text>
+    <text x="0" y="606" class="out">total contributions</text><text x="370" y="606" class="out">474</text>
+    <text x="0" y="632" class="out">current streak</text><text x="370" y="632" class="out">1 days</text>
+    <text x="0" y="658" class="out">longest streak</text><text x="370" y="658" class="out">8 days</text>
     <text x="0" y="692" class="link-out">github.com/Heet06</text>
 
     <text x="0" y="732" class="tilde">~</text>
